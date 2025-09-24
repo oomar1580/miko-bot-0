@@ -15,12 +15,12 @@
   "author": "D-Jukie",
   "dependencies": {
     "@distube/ytdl-core": "^4.13.2",
-    "@dongdev/fca-unofficial": "^1.0.15",
+    "@dongdev/fca-unofficial": "^1.0.19",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@miraipr0ject/assets": "^1.0.9",
     "@xaviabot/fca-unofficial": "^1.4.0",
     "adm-zip": "^0.5.10",
-    "axios": "",
+    "axios": "^1.9.0",
     "body-parser": "",
     "caesar-salad": "",
     "canvas": "^2.11.2",
@@ -68,6 +68,7 @@
     "semver": "",
     "sequelize": "",
     "set-cookie": "^0.0.4",
+    "soundcloud-downloader": "^1.0.0",
     "sqlite3": "",
     "string-similarity": "^4.0.4",
     "tinyurl": "^1.1.7",
@@ -76,6 +77,7 @@
     "wikijs": "^6.4.1",
     "ws3-fca": "^1.0.47",
     "youtube-search-api": "^1.2.1",
+    "yt-search": "^2.13.1",
     "ytdl-core": "^4.11.5"
   }
 }
