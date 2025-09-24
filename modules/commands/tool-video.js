@@ -7,7 +7,6 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "CatalizCS mod video by Đăng",
   description: "تشغيل فيديوهات من اليوتيوب",
-  usePrefix: true,
   commandCategory: "قــســم الــادوات",
   usages: "يوتيب [إسم الفيديو]",
   cooldowns: 10
