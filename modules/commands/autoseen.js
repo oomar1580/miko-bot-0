@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "autoseen",
 	version: "1.0.0",
 	hasPermssion: 2,
-	credits: "S H A D O W",
+	credits: "MAHER",
 	description: "",
   commandCategory: "الـــمــطـــور",
   usages: "",
