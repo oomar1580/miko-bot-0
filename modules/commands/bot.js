@@ -1,9 +1,9 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "اكامي",
+  name: "ميكو",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "S H A D O W",
+  credits: "MAHER",
   description: "",
   commandCategory: "الــــجـــروب", 
   usages: "noprefix",
@@ -24,7 +24,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️حياتي بدونك ولا شئ 🙃💞", threadID, messageID);
    };
   if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() == "بحبك")) {
-     return api.sendMessage("️ شادو حبيبي الوحيد يولد 🤧", threadID, messageID);
+     return api.sendMessage("️ ماهر حبيبي الوحيد يولد 🤧", threadID, messageID);
    };
    
   if ((event.body.toLowerCase() == "ملل") || (event.body.toLowerCase() == "ملل يجيب شلل")) {
@@ -36,7 +36,7 @@ if ((event.body.toLowerCase() == " كيوت") || (event.body.toLowerCase() == "�
    };
    
    if ((event.body.toLowerCase() == "شسمك") || (event.body.toLowerCase() == "ايش هو اسمك")) {
-     return api.sendMessage("️اكامي عمتك 💞😺", threadID, messageID);
+     return api.sendMessage("️ميكو 🍃🌸", threadID, messageID);
    };
    
    if ((event.body.toLowerCase() == "كيفكم") || (event.body.toLowerCase() == "كيفك")) {
@@ -63,7 +63,7 @@ if ((event.body.toLowerCase() == "كيفها حياتك ") || (event.body.toLowe
    };
    
    if ((event.body.toLowerCase() == "بوت") || (event.body.toLowerCase() == "يا بوت ")) {
-     return api.sendMessage("️يا روحها اسمي اكامي عمتك 💖", threadID, messageID);
+     return api.sendMessage("️يا روحها اسمي ميكو عمتك 💖", threadID, messageID);
    };
   
   if ((event.body.toLowerCase() == "جييتت") || (event.body.toLowerCase() == "باااكك")) {
@@ -71,11 +71,11 @@ if ((event.body.toLowerCase() == "كيفها حياتك ") || (event.body.toLowe
    };
    
    if ((event.body.toLowerCase() == "المطور") || (event.body.toLowerCase() == "من المطور")) {
-     return api.sendMessage("شادو حبيبي وروحي وتاج راسكم 💞🙃", threadID);
+     return api.sendMessage("ماهر حبيبي 😍🌸🍃", threadID);
    };
    mess = "{name}"
   
-  if (event.body.indexOf("كيوتتي") == 0 || (event.body.indexOf("اكامي") == 0)) {
+  if (event.body.indexOf("كيوتتي") == 0 || (event.body.indexOf("ميكو") == 0)) {
     var msg = {
       body: ` ${rand}`
     }
