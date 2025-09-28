@@ -38,7 +38,7 @@ module.exports.handleReply = async function ({ api, event, handleReply }) {
 			dataAfter.cmds.forEach(item => {
 				msg += `\n ${count+=1}. » ${item}: ${commands.get(item).config.description}`;
 			})
-			msg += "\n━━━━━━༺۵༻━━━━━━\n⌯ اكــامــي بـــوت\n━━━━━━༺۵༻━━━━━━";
+			msg += "\n◈ ─────────────── ◈│←›\n⌯ ميكو بوت\n◈ ─────────────── ◈│←›";
 		}
 	}
 	const axios = require('axios');
@@ -92,7 +92,7 @@ module.exports.run = async function({ api, event, args }) {
         fs.writeFileSync(path, Buffer.from(dowloadIMG, "utf-8") );
         imgP.push(fs.createReadStream(path))
 	const command = commands.values();
-	var group = [], msg = "━━━━━━༺۵༻━━━━━━\n» قــائــمــه الــاوامــر «\n━━━━━━༺۵༻━━━━━━\n";
+	var group = [], msg = "◈ ───『\n» قــائــمــه الــاوامــر «\n』─── ◈\n";
 	let check = true, page_num_input = "";
 	let bonus = 0;
 
@@ -124,7 +124,7 @@ module.exports.run = async function({ api, event, args }) {
 			})
 			msg += `\n\n⌯ الــصــفــحــه ${page_num_input || 1}/${page_num_total}`;
 			msg +=``
-			msg += "\n━━━━━━༺۵༻━━━━━━\n⌯ اكــامــي بـــوت\n━━━━━━༺۵༻━━━━━━\n⌯ جــروب الــدعــم ↯\nhttps://chat.whatsapp.com/F6gNHec7QOCERSVC5mAEGr\n━━━━━━༺۵༻━━━━━━";
+			msg += "\n◈ ─────────────── ◈│←›\n⌯ ميكو بوت\n◈ ─────────────── ◈│←›\n⌯ جــروب الــدعــم ↯\nhttps://chat.whatsapp.com/F6gNHec7QOCERSVC5mAEGr\n━━━━━━༺۵༻━━━━━━";
 		}
 		var msgg = {body: msg, attachment: imgP}
 		return api.sendMessage(msgg, threadID, (error, info) => {
@@ -156,7 +156,7 @@ module.exports.run = async function({ api, event, args }) {
 		group.forEach(commandGroup => msg += `\n${index_start+=1}. » ${commandGroup.group.toUpperCase()} `);
 		msg += `\n\n⌯ الــصــفــحــه【${page_num_input || 1}/${page_num_total}】`;
 		msg +=``
-		msg += `\n\n━━━━━━༺۵༻━━━━━━\n⌯ رد عــلـي الــرســالــه مــع اخــتــيــار رقــم الــمــنــيــو\n━━━━━━༺۵༻━━━━━━`;
+		msg += `\n\n◈ ─────────────── ◈\n⌯ رد عــلـي الــرســالــه مــع اخــتــيــار رقــم الــمــنــيــو\n◈ ─────────────── ◈`;
 	}
 	var msgg = {body: msg, attachment: imgP}
 	return api.sendMessage(msgg, threadID, async (error, info) => {
